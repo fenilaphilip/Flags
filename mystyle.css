@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: aliceblue;
+  font-size: 60px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/*first rect*/
+.flag {
+  background-color: #f15b25;
+  height: 600px;
+  width: 900px;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+/*second rect*/
+.flag > .middle {
+  background-color: #ffffff;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 200px;
+}
+img {
+  width: 200px;
+  position: relative;
+  left: 350px;
+  border-radius: 50%;
+}
+/*third rect*/
+.flag > div {
+  background-color: #006934;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 400px;
+}
